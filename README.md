@@ -27,6 +27,9 @@ Set the `g:hs_module_no_auto` variable to disable this.
 When you are in a buffer with the `haskell` filetype, press `M` to insert the
 module header as described above.
 
+To use a different key sequence instead of `M`, set the `g:hs_module_mapping`
+variable to the desired key sequence.
+
 Set the `g:hs_module_no_mappings` variable to disable this.
 
 ### Command
