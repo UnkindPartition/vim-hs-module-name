@@ -29,6 +29,10 @@ module header as described above.
 
 Set the `g:hs_module_no_mappings` variable to disable this.
 
+### Command
+If you want to set up other bindings or hooks, use the
+`:InsertHaskellModuleName` command.
+
 ## How the inference works
 The components of the module name are assumed to be the largest
 prefix of the file path components where all the components start with
