@@ -1,4 +1,4 @@
-# haskell-module-name Vim plugin
+# hs-module-name Vim plugin
 
 This vim plugin can automatically figure out and insert the name of a Haskell
 module based on the filename.
