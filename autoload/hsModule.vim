@@ -9,9 +9,7 @@ endfunction
 function! s:CapitalizedSuffix(ps)
   let result=[]
   for p in reverse(a:ps)
-    " \C is needed to make the pattern case-sensitive
-    " match returns -1 on failure
-    if match(p, '^[[:upper:]]\C') >= 0
+    if p =~# '^[[:upper:]]'
       let result=[p]+result
     else
       break
